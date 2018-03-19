@@ -3,11 +3,11 @@
 }
 
 .item2 {
-  grid-area: space;
+  grid-area: nav;
 }
 
 .item3 {
-  grid-area: nav;
+  grid-area: space;
 }
 
 .item4 {
@@ -18,17 +18,9 @@
   grid-area: footer;
 }
 
-.item6 {
-  grid-area: about;
-}
-
-.item7 {
-  grid-area: index;
-}
-
 .grid-container {
   display: grid;
-  grid-template-areas: 'header header header header header header' 'nav nav about about index index' 'space con con con con con' 'space footer footer footer footer footer';
+  grid-template-areas: 'header header header header header header' 'nav nav nav nav nav nav' 'space con con con con con' 'space footer footer footer footer footer';
   grid-gap: 10px;
   background-color: Maroon;
   padding: 10px;
